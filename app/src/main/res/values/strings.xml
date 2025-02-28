@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Faraday Edge Mobile Connect</string>
+    <string name="country_code">Country Code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="passport_number">Passport Number</string>
+    <string name="national_id">National Id</string>
+    <string name="connect">Connect</string>
+    <string name="close">Close App</string>
+    <string name="logo_text">Faraday Networks</string>
+    <string name="connection_started">Connection in progress.</string>
+    <string name="wifi_connection_required">This action requires a Wi-Fi connection. Please connect and try again.</string>
+</resources>

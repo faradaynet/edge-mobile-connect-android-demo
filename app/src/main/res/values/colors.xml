@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8397d4</color>
+    <color name="colorPrimaryDark">#e6e7ea</color>
+    <color name="colorAccent">#8397d4</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="main_desc">#142347</color>
+    <color name="main_desc90">#E6142347</color>
+    <color name="main_desc70">#B3142347</color>
+    <color name="main_desc50">#88142347</color>
+    <color name="main_bg">#f7f7fa</color>
+    <color name="main_seperator">#A7AFC2</color>
+    <color name="wifi_experience">#012376</color>
+
+    <color name="main_top_application_progress">#2AD7D9</color>
+    <color name="main_top_application_bar">#f2f3f5</color>
+
+    <color name="last_update">#8994ad</color>
+
+    <color name="bubble_bg">#EAEDF4</color>
+    <color name="bubble_time">#B3B7C4</color>
+    <color name="cage_text_bg">#f3f5f9</color>
+    <color name="cage_text_hint">#b7becb</color>
+
+    <color name="disable_network">#bdc3d2</color>
+    <color name="enable_network">#00dd71</color>
+    <color name="network_detail_color">#005bea</color>
+    <color name="filter">#6e84b8</color>
+    <color name="delete">#FF2534</color>
+
+    <color name="total_connection_count">#25D7DA</color>
+    <color name="total_data_usage">#FF265C</color>
+
+    <color name="dashboard_data_usage_download">#682cc6</color>
+    <color name="dashboard_data_usage_upload">#6be8e4</color>
+    <color name="data_usage_download">#e35c3d</color>
+    <color name="data_usage_upload">#fdac00</color>
+    <color name="top_os_text">#E6142347</color>
+
+    <color name="top_os_1">#136CED</color>
+    <color name="top_os_2">#559DFC</color>
+    <color name="top_os_3">#8DBCFC</color>
+
+    <color name="drag_bg">#dcdfe6</color>
+    <color name="scrollable_detail_bg">#22000000</color>
+
+    <color name="report_clients">#4978de</color>
+
+    <color name="crowd_current">#ffc900</color>
+
+    <color name="age18">#00b5bd</color>
+    <color name="age25">#00cad1</color>
+    <color name="age35">#82d6f5</color>
+    <color name="age50">#45bfe8</color>
+    <color name="age60">#1a9ccc</color>
+    <color name="age61">#2a5599</color>
+    <color name="age_unknown">#172373</color>
+
+    <color name="male_age18">#a9d4fc</color>
+    <color name="male_age25">#72bbfc</color>
+    <color name="male_age35">#3c9ef5</color>
+    <color name="male_age50">#1684de</color>
+    <color name="male_age60">#0667ba</color>
+    <color name="male_age61">#24448e</color>
+    <color name="male_age_unknown">#162065</color>
+
+    <color name="female_age18">#b5fbff</color>
+    <color name="female_age25">#89eef5</color>
+    <color name="female_age35">#57ddea</color>
+    <color name="female_age50">#00c6d9</color>
+    <color name="female_age60">#00b5c7</color>
+    <color name="female_age61">#00a2b0</color>
+    <color name="female_age_unknown">#00899c</color>
+
+    <color name="unknown_age18">#b4c8e0</color>
+    <color name="unknown_age25">#89a9cc</color>
+    <color name="unknown_age35">#7995b3</color>
+    <color name="unknown_age50">#677f99</color>
+    <color name="unknown_age60">#54647a</color>
+    <color name="unknown_age61">#465066</color>
+    <color name="unknown_age_unknown">#343c4d</color>
+
+    <color name="os1">#fdac00</color>
+    <color name="os2">#fd9600</color>
+    <color name="os3">#ff733c</color>
+    <color name="os4">#d5633e</color>
+
+    <color name="browser1">#73b4ff</color>
+    <color name="browser2">#5192fa</color>
+    <color name="browser3">#4070d6</color>
+    <color name="browser4">#3853ba</color>
+    <color name="browser5">#294099</color>
+
+    <color name="male">#223f8c</color>
+    <color name="female">#00c6d9</color>
+    <color name="gender_unknown">#b4c8e0</color>
+
+    <color name="average_time">#fd8200</color>
+
+    <color name="calendar_selected_day_bg">#005bea</color>
+    <color name="calendar_selected_range_bg">#005bea</color>
+</resources>

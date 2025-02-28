@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:clickable="true"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/faraday_image"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/faraday" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logo_text"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/top_os_text"
+        android:textStyle="bold" />
+
+
+    <!-- Country Code and Phone Number Section -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faraday_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/country_code"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.2"
+            android:autofillHints="countryCode"
+            android:background="@drawable/custom_edittext_background"
+            android:hint="1"
+            android:inputType="none"
+            android:textAlignment="center"
+            android:textColorHint="@color/unknown_age61" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.8"
+            android:autofillHints="phone"
+            android:background="@drawable/custom_edittext_background"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColorHint="@color/unknown_age61" />
+    </LinearLayout>
+
+    <!-- Passport and National ID Fields -->
+    <EditText
+        android:id="@+id/national_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/linearLayout"
+        android:layout_marginTop="20dp"
+        android:autofillHints="nationalId"
+        android:background="@drawable/custom_edittext_background"
+        android:hint="@string/national_id"
+        android:inputType="text"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textColorHint="@color/unknown_age61" />
+
+    <EditText
+        android:id="@+id/passport_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/national_id"
+        android:layout_marginTop="16dp"
+        android:autofillHints="passport"
+        android:background="@drawable/custom_edittext_background"
+        android:hint="@string/passport_number"
+        android:inputType="text"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textColorHint="@color/unknown_age61" />
+
+    <!-- Connect and Close Buttons -->
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passport_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="10dp"
+        android:text="@string/connect"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connect_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="10dp"
+        android:text="@string/close"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/close_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollbars="vertical"
+            android:textAlignment="center"
+            android:textColor="@color/top_os_text"
+            android:textStyle="bold" />
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
